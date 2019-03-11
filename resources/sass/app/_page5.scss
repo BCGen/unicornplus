@@ -1,0 +1,338 @@
+.page-5 {
+  padding: 0;
+  position: relative;
+  z-index: 2;
+
+  .Message-card {
+    padding: 20px 0;
+    margin: 35px 0;
+
+    .message-card-box {
+      width: 100%;
+      background-color: #809bce;
+      border-radius: 35px;
+      padding: 8%;
+      padding-bottom: 7%;
+      margin: 0 auto;
+      border: 15px solid white;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      // min-height: 400px;
+      .tittle-box{
+        overflow: hidden;
+        white-space: nowrap;
+
+        h6 {
+          color: #b0e2e2;
+          margin: 0 0 15px 0;
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+
+      p {
+        margin-bottom: 10px;
+        color: #d8eae9;
+
+        @include multiLineEllipsis(1.5, 3, 18px);
+        word-break: break-all;
+        // max-height: unset !important;
+        // widows: 100%;
+        // height: 75px;
+      }
+
+      button {
+        background-color: #fff0;
+        border-radius: 2px;
+        border: 1px solid white;
+        color: #fff;
+        padding: 3px 10px 3px 10px;
+        transition: 0.2s;
+        align-self: flex-end;
+        font-size: 14px;
+
+        &:hover {
+          background-color: #fff;
+          color: #f2b3c3;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+    .Message-card {
+      padding: 20px 0;
+      margin: 35px 0;
+  
+      .message-card-box_jp {
+        width: 100%;
+        background-color: #809bce;
+        border-radius: 35px;
+        padding: 8%;
+        padding-bottom: 7%;
+        margin: 0 auto;
+        border: 15px solid white;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        // min-height: 400px;
+        .tittle-box{
+          overflow: hidden;
+          white-space: nowrap;
+  
+          h6 {
+            color: #b0e2e2;
+            margin: 0 0 15px 0;
+            font-size: 20px;
+            font-weight: 300;
+          }
+        }
+  
+        p {
+          margin-bottom: 10px;
+          color: #d8eae9;
+  
+          @include multiLineEllipsis(1.5, 3, 18px);
+          word-break: break-all;
+          // max-height: unset !important;
+          // widows: 100%;
+          // height: 75px;
+        }
+  
+        button {
+          background-color: #fff0;
+          border-radius: 2px;
+          border: 1px solid white;
+          color: #fff;
+          padding: 3px 10px 3px 10px;
+          transition: 0.2s;
+          align-self: flex-end;
+          font-size: 14px;
+  
+          &:hover {
+            background-color: #fff;
+            color: #f2b3c3;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .message-card-box_jp {
+        width: 100%;
+        background-color: #809bce;
+        border-radius: 35px;
+        padding: 8%;
+        padding-bottom: 7%;
+        margin: 0 auto;
+        border: 15px solid white;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        // min-height: 400px;
+        .tittle-box{
+          overflow: hidden;
+          white-space: nowrap;
+  
+          h6 {
+            color: #b0e2e2;
+            margin: 0 0 15px 0;
+            font-size: 20px;
+            font-weight: 300;
+
+            @media(max-width:400px){
+              font-size:16px;
+            }
+          }
+        }
+  
+        p {
+          margin-bottom: 10px;
+          color: #d8eae9;
+  
+          @include multiLineEllipsis(1.5, 3, 18px);
+          word-break: break-all;
+          // max-height: unset !important;
+          // widows: 100%;
+          // height: 75px;
+
+          @media(max-width:400px) {
+            font-size:14px;
+          }
+        }
+  
+        button {
+          background-color: #fff0;
+          border-radius: 2px;
+          border: 1px solid white;
+          color: #fff;
+          padding: 3px 10px 3px 10px;
+          transition: 0.2s;
+          align-self: flex-end;
+          font-size: 14px;
+  
+          &:hover {
+            background-color: #fff;
+            color: #f2b3c3;
+            cursor: pointer;
+          }
+        }
+      }
+  }
+  
+
+  h1 {
+    font-size: $tittleA;
+    font-weight: 700;
+    padding-left: 15px;
+  }
+
+  .button-box {
+    margin: 0;
+
+    button {
+      width: 190px;
+      height: 76px;
+      background-color: #fff0;
+      border-radius: 10px;
+      border: 1.2px solid #4a4a4a;
+      color: #4a4a4a;
+      transition: 0.2s;
+      font-size: 23px;
+      font-weight: 500;
+      padding: 20px 25px;
+      margin-bottom: 30px;
+
+      &:hover {
+        background-color: #809bce;
+        color: #6fd8d5;
+        border: 1.2px solid rgba(0, 0, 0, 0);
+        cursor: pointer;
+      }
+    }
+  }
+  .button-box_jp{
+    button{
+      border: 1px solid $darkGray;
+      border-radius: 10px;
+      padding:0;
+      @media (max-width: 576px) {
+        width:110px;
+        height:36px;
+        font-size:12px;
+      }
+    }
+  }
+}
+
+  @media (max-width: 992px) {
+    .row {
+      display: flex;
+      justify-content: center;
+
+      h1 {
+        text-align: center;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 12vw;
+        }
+      }
+      @media (max-width: 400px){
+        h1 {
+          font-size: 40px;
+          padding-left:0;
+        }
+      }
+    }
+
+    .Message-card {
+      .message-card-box {
+        // min-width: 470px;
+        .tittle-box {
+          display: flex;
+          justify-content: space-between;
+          overflow: hidden;
+
+          h3 {
+            font-size: 30px;
+            white-space: nowrap;
+          }
+
+          h6 {
+            margin: 12px 0 0 0;
+            white-space: nowrap;
+          }
+        }
+
+        p {
+          @include multiLineEllipsis(1.5, 3, 18px);
+          word-break: break-all;
+          // font-size: $font8;
+        }
+
+        @media (max-width: 768px) {
+          .tittle-box {
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+
+            h6 {
+              margin: 0 0 20px 0;
+            }
+          }
+        }
+      }
+
+      .message-card-box_jp {
+        // min-width: 470px;
+        .tittle-box {
+          display: flex;
+          justify-content: space-between;
+          overflow: hidden;
+
+          h3 {
+            font-size: 30px;
+            white-space: nowrap;
+
+            @media(max-width:400px){
+              font-size:22px
+            }
+          }
+
+          h6 {
+            margin: 12px 0 0 0;
+            white-space: nowrap;
+            @media(max-width:400px){
+              font-size:16px;
+            }
+          }
+        }
+
+        p {
+          @include multiLineEllipsis(1.5, 3, 18px);
+          word-break: break-all;
+          // font-size: $font8;
+          @media(max-width:400px){
+            font-size:14px;
+          }
+        }
+
+        @media (max-width: 768px) {
+          .tittle-box {
+            display: flex;
+            overflow: hidden;
+            flex-direction: column;
+
+            h6 {
+              margin: 0 0 20px 0;
+            }
+          }
+        }
+      }
+
+
+    }
+  }
+

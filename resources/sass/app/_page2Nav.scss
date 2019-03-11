@@ -1,0 +1,57 @@
+.page2Nav {
+  background-color: $white;
+  height: 50px;
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  z-index: 15 !important;
+  transition: 1s;
+  display: none;
+  padding-right:17px;
+  width:100vw;
+
+  .uniKidsText {
+    font-size: $font8;
+    padding-top: 10px;
+
+    a {
+      color: $aqua;
+      text-decoration: none;
+    }
+  }
+
+  .navLogo {
+    width: 100px;
+    height: 100px;
+
+    @include IMG('/images/icon/1920/slide_down_logo.png');
+
+    position: absolute;
+    top: 100%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .aboutUs {
+    font-size: $font8;
+    color: $aqua;
+    padding-top: 10px;
+  }
+
+  .navContainer {
+    margin-left:30px;
+    
+    .btn {
+      background-color: $white;
+
+      .navbarIcon {
+        width: 30px;
+        height: 30px;
+        background-image: url('/images/icon/1920/menu.png');
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}

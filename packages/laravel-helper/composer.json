@@ -1,0 +1,17 @@
+{
+    "name": "bcgen/laravel-helper",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bcgen\\LaravelHelper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "RouteHelper": "Bcgen\\LaravelHelper\\Routes\\Route"
+            }
+        }
+    }
+}

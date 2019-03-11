@@ -1,0 +1,17 @@
+extends:
+  - ruker
+
+rules:
+  vue/max-attributes-per-line:
+    - 2
+    - singleline: 3
+      multiline:
+        max: 1
+        allowFirstLine: false
+
+globals:
+  _: false
+  $: false
+  Vue: false
+  axios: false
+  Swiper: false

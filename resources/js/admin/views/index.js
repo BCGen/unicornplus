@@ -1,0 +1,5 @@
+export { default as BannerView } from './BannerView.vue'
+export { default as SchoolEnvironmentView } from './SchoolEnvironmentView.vue'
+export { default as MessageAnnouncementView } from './MessageAnnouncementView.vue'
+export { default as ClassCardView } from './ClassCardView.vue'
+export { default as FormDownloadView } from './FormDownloadView.vue'
